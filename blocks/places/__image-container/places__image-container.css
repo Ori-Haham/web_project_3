@@ -1,0 +1,8 @@
+@media screen and (max-width: 560px) {
+  .places__image-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 30px auto 0;
+  }
+}

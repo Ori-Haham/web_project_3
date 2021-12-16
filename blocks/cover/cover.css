@@ -1,0 +1,33 @@
+.cover {
+  max-width: 92.5vw;
+  max-height: 106.321839vh;
+  min-width: 92.5vw;
+  min-height: 106.321839vh;
+  background-image: url(../../images/__background.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 560px) {
+  .cover {
+    max-width: 768px;
+    max-height: 746px;
+    min-height: 746px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover {
+    max-height: 80vh;
+    min-height: 80vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-height: 254px;
+    min-height: 254px;
+  }
+}

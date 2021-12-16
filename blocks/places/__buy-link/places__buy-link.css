@@ -1,0 +1,33 @@
+.places__buy-link {
+  background-color: rgba(2, 120, 254, 1);
+  width: 248px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 1s linear 0.1s;
+  object-fit: cover;
+  margin-top: 48px;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 560px) {
+  .places__buy-link {
+    max-width: 288px;
+    max-height: 48px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+.places__buy-link:hover {
+  background-color: rgba(0, 99, 210, 1);
+  transition: background-color 1s linear 0.1s;
+}

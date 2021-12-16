@@ -1,0 +1,25 @@
+.cover__link {
+  width: 137px;
+  height: 48px;
+  background-color: rgb(2, 120, 254);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  transition: background-color 1s linear 0.1s;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    margin-top: 16px;
+  }
+}
+
+.cover__link:hover {
+  background: rgba(0, 99, 210, 1);
+  transition: background-color 1s linear 0.1s;
+}

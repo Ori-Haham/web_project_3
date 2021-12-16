@@ -1,0 +1,33 @@
+.places__artist {
+  max-width: 100%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: 400;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .places__artist {
+    font-size: 2.34375vw;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .places__artist {
+    font-size: 3.75vw;
+    line-height: 1.25;
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .places__artist {
+    font-size: 12px;
+  }
+}
