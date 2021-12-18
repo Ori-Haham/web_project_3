@@ -10,20 +10,18 @@
   align-items: center;
   justify-content: center;
   transition: background-color 1s linear 0.1s;
-  object-fit: cover;
-  margin-top: 48px;
   color: white;
   text-decoration: none;
+  border-radius: 4px;
+  grid-column-start: 1;
+  
 }
 
 @media screen and (max-width: 560px) {
   .places__buy-link {
-    max-width: 288px;
-    max-height: 48px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
+    width: 288px;
+    height: 48px;
+    margin: 30px auto 0;
   }
 }
 

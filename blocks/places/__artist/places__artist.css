@@ -17,8 +17,8 @@
 
 @media screen and (max-width: 560px) {
   .places__artist {
-    font-size: 3.75vw;
-    line-height: 1.25;
+    font-size: 18px;
+    line-height: 1.22;
     max-width: 90vw;
     margin: 0 auto;
   }
@@ -27,6 +27,7 @@
 
 @media screen and (max-width: 320px) {
   .places__artist {
-    font-size: 12px;
+    font-size: 18px;
+    line-height: 1.22;
   }
 }

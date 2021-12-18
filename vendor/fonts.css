@@ -6,6 +6,13 @@
   }
 
   @font-face {
+    src: url(./Inter-SemiBold.woff) format('woff'),
+         url(./Inter-SemiBold.woff2) format('woff2');
+      font-family:'Inter';
+      font-weight:600;
+    }
+
+  @font-face {
     src: url(./Inter-Black.woff) format('woff'),
          url(./Inter-Black.woff2) format('woff2');
       font-family:'Inter';
