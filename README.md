@@ -19,3 +19,5 @@ My previous project was not responsive and only fit on laptop screens. In this p
 I think technically it will be an interesting challenge to add animation to the site which will be responsive and will fit any screen from 1280px to 320px.
 
 To do this I intend to use the same technologies I used in this responsive project, but in a way that is compatible with live content like animation.
+
+[Link to project on Githube](https://ori-haham.github.io/web_project_3/)
