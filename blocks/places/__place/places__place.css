@@ -6,13 +6,11 @@
   margin: 0 auto;
   padding-top: 32px;
   list-style: none;
-
 }
 
 .places__place:nth-of-type(1) {
   padding-top: 0;
 }
-
 
 @media screen and (max-width: 768px) {
   .places__place {
